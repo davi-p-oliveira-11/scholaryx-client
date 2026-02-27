@@ -55,7 +55,6 @@ export const ALLOWED_TYPES = [
     "image/webp",
 ];
 
-{/*
 
 const getEnvVar = (key: string): string => {
     const value = import.meta.env[key];
@@ -64,6 +63,7 @@ const getEnvVar = (key: string): string => {
     }
     return value;
 };
+
 
 export const CLOUDINARY_UPLOAD_URL = getEnvVar("VITE_CLOUDINARY_UPLOAD_URL");
 export const CLOUDINARY_CLOUD_NAME = getEnvVar("VITE_CLOUDINARY_CLOUD_NAME");
@@ -79,7 +79,7 @@ export const CLOUDINARY_UPLOAD_PRESET = getEnvVar("VITE_CLOUDINARY_UPLOAD_PRESET
 
 
 
-
+{/*
 
 export const teachers = [
     {
