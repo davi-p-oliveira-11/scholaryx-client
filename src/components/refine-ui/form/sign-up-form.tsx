@@ -55,8 +55,8 @@ export const SignUpForm = () => {
     register({
       email,
       password,
-      name,
-      role,
+      name: "default",
+      role: "user",
       image: null,
       imageCldPubId: null,
     });
